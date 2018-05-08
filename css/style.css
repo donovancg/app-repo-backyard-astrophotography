@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1:300,400");
 /*
 MEDIA QUERY MANAGER
     
@@ -10,6 +11,33 @@ MEDIA QUERY MANAGER
     
 Base > typography > general layout > grid > page layout > components
 */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+main {
+  background-color: #ddd; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: "Gothic A1", sans-serif; }
+
+.heading--primary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; }
+
+.u-link-no-style {
+  text-decoration: none !important; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -52,3 +80,28 @@ Base > typography > general layout > grid > page layout > components
     width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+
+.header {
+  height: 35vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../img/system/header3.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+
+.nav {
+  position: absolute;
+  top: 3rem;
+  right: 3rem; }
+  .nav__li {
+    list-style-type: none;
+    display: inline;
+    padding: 1rem;
+    margin: 0 2rem; }
+  .nav__a {
+    color: #fff;
+    padding: .5rem 0;
+    border-bottom: 2px solid transparent;
+    transition: all .2s; }
+    .nav__a:hover {
+      border-bottom: 2px solid #fff; }

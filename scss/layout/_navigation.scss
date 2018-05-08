@@ -1,0 +1,23 @@
+.nav {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+
+    &__li {
+        list-style-type: none;
+        display: inline;
+        padding: 1rem;
+        margin: 0 2rem;
+    }
+
+    &__a {
+        color: $color-white;
+        padding: .5rem 0;
+        border-bottom: 2px solid transparent;
+        transition: all .2s;
+
+        &:hover {
+            border-bottom: 2px solid $color-white;
+        }
+    }
+}

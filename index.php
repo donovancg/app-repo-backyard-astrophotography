@@ -22,7 +22,9 @@
         </div>
     </header>
     <main>
-
+        <section class="section-latest">
+            <h2 class="heading--secondary">Latest</h2>
+        </section>
     </main>
 </body>
 </html>
