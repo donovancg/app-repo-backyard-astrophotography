@@ -21,6 +21,9 @@ Base > typography > general layout > grid > page layout > components
 body {
   background-color: #333; }
 
+main {
+  min-height: 60vh; }
+
 img {
   cursor: pointer; }
 
@@ -65,27 +68,44 @@ body {
 .u-link-no-style {
   text-decoration: none !important; }
 
-.latest__post--img {
-  width: 20rem;
-  margin: auto;
-  text-align: center; }
-
-.latest__post--caption {
-  color: #fff;
-  display: inline-block;
-  font-weight: 300;
-  font-style: italic;
-  padding: 1rem 2rem; }
-
-.latest__post--link {
-  display: inline-block;
-  color: #3f6bfc;
-  margin-left: .5rem; }
-
-.latest__post, .latest__article {
-  background-color: #222;
-  min-height: 60vh;
-  text-align: center; }
+.latest {
+  display: flex;
+  justify-content: center; }
+  .latest__post--img {
+    height: 20rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: center; }
+  .latest__post--caption {
+    color: #fff;
+    display: inline-block;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 2rem; }
+  .latest__post--link {
+    display: inline-block;
+    color: #3f6bfc;
+    margin-left: .5rem; }
+  .latest__article--img {
+    height: 20rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: center; }
+  .latest__article--caption {
+    color: #fff;
+    display: inline-block;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 2rem; }
+  .latest__article--link {
+    display: inline-block;
+    color: #3f6bfc;
+    margin-left: .5rem; }
+  .latest__post, .latest__article {
+    background-color: #222;
+    text-align: center;
+    margin: 2rem;
+    width: 50%; }
 
 .row {
   max-width: 114rem;
@@ -152,9 +172,13 @@ body {
     padding: .5rem 0;
     border-bottom: 2px solid transparent;
     transition: all .2s; }
+    .nav__a--select {
+      border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+      transition: all .2s; }
     .nav__a:hover {
       border-bottom: 2px solid #fff; }
 
 .section-latest {
   margin: 2rem;
+  margin-top: 0;
   text-align: center; }

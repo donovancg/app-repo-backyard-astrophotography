@@ -1,10 +1,14 @@
 .latest {
 
+    display: flex;
+    justify-content: center;
+
     &__post {
 
         &--img {
-            width: 20rem;
+            height: 20rem;
             margin: auto;
+            margin-bottom: 2rem;
             text-align: center;
         }
 
@@ -13,7 +17,7 @@
             display: inline-block;
             font-weight: 300;
             font-style: italic;
-            padding: 1rem 2rem;
+            margin: 0 2rem;
         }
 
         &--link {
@@ -25,9 +29,35 @@
         // &--details
     }
 
+    &__article {
+        
+        &--img {
+            height: 20rem;
+            margin: auto;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+
+        &--caption {
+            color: $color-white;
+            display: inline-block;
+            font-weight: 300;
+            font-style: italic;
+            margin: 0 2rem;
+        }
+
+        &--link {
+            display: inline-block;
+            color: $color-link-blue;
+            margin-left: .5rem;
+        }
+    }
+
     &__post, &__article {
         background-color: $color-grey-dark-5;
-        min-height: 60vh;
         text-align: center;
+        margin: 2rem;
+        width: 50%;
     }
 }
