@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300,400');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400');
 
 @import "abstracts/functions";
 @import "abstracts/mixins";
@@ -8,6 +8,9 @@
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
+@import "base/utilities";
+
+@import "components/latest";
 
 @import "layout/grid";
 @import "layout/header";

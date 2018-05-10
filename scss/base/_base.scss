@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
-main {
-    background-color: $color-grey-light-3;
+body {
+    background-color: $color-grey-dark-3;
+}
+
+img {
+    cursor: pointer;
 }

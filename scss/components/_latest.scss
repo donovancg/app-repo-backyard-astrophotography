@@ -1,0 +1,33 @@
+.latest {
+
+    &__post {
+
+        &--img {
+            width: 20rem;
+            margin: auto;
+            text-align: center;
+        }
+
+        &--caption {
+            color: $color-white;
+            display: inline-block;
+            font-weight: 300;
+            font-style: italic;
+            padding: 1rem 2rem;
+        }
+
+        &--link {
+            display: inline-block;
+            color: $color-link-blue;
+            margin-left: .5rem;
+        }
+
+        // &--details
+    }
+
+    &__post, &__article {
+        background-color: $color-grey-dark-5;
+        min-height: 60vh;
+        text-align: center;
+    }
+}
