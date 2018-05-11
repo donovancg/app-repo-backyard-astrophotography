@@ -24,25 +24,14 @@
             <nav class="nav">
                 <ul class="nav__ul">
                     <li class="nav__li"><a href="../" class="nav__a u-link-no-style">Home</a></li>
-                    <li class="nav__li"><a href="../blog" class="nav__a u-link-no-style">Blog</a></li>
-                    <li class="nav__li"><a href="../gallery" class="nav__a u-link-no-style">Gallery</a></li>
-                    <li class="nav__li"><a href="" class="nav__a nav__a--select u-link-no-style">About</a></li>
+                    <li class="nav__li"><a href="../blog" class="nav__a nav__a--select u-link-no-style">Blog</a></li>
+                    <li class="nav__li"><a href="" class="nav__a u-link-no-style">Gallery</a></li>
+                    <li class="nav__li"><a href="../about" class="nav__a u-link-no-style">About</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-
-        <section class="section-about">
-            <h2 class="heading--secondary">About</h2>
-
-            <div class="about">
-                <img src="../img/user/setup.jpg" alt="setup.jpg" class="about__img">
-
-                <p class="about__caption">This blog is about astronomy and how we photograph the night sky, from star trails to deep sky objects. All images were developed entirely in Adobe Lightroom, Adobe Photoshop, and Deep Sky Stacker and photographed with a Canon EOS 10D, Nikon D90, or Canon EOS Rebel T3i. The deep sky images were taken with an Orion Skyview Pro, an Orion Skyview Pro Equatorial mount or an IOptron CEM25 GOTO mount.</p>
-            </div>
-            
-        </section>
         
     </main>
     <footer class="footer">
@@ -57,8 +46,8 @@
             <ul class="footer__ul">
                 <li class="footer__li"><a href="../" class="footer__a u-link-no-style">Home</a></li>
                 <li class="footer__li"><a href="../blog" class="footer__a footer__a--select u-link-no-style">Blog</a></li>
-                <li class="footer__li"><a href="#" class="footer__a u-link-no-style">Gallery</a></li>
-                <li class="footer__li"><a href="" class="footer__a u-link-no-style">About</a></li>
+                <li class="footer__li"><a href="" class="footer__a u-link-no-style">Gallery</a></li>
+                <li class="footer__li"><a href="../about" class="footer__a u-link-no-style">About</a></li>
             </ul>
         </nav>
         <div class="footer__cta">
