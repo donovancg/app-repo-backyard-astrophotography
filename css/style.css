@@ -296,6 +296,12 @@ form > * {
     .nav__a:hover {
       border-bottom: 2px solid #fff; }
 
+.section-about .about {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem; }
+
 .section-latest {
   margin: 2rem;
   margin-top: 0;
