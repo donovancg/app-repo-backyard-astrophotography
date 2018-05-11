@@ -13,6 +13,11 @@ body {
     color: $color-white;
 }
 
+[class^="heading--"] {
+    color: $color-white;
+    font-weight: 300;
+}
+
 .heading--primary {
     @include centerHorizontalVertical;
     color: $color-white;

@@ -14,6 +14,6 @@ main {
     min-height: 60vh;
 }
 
-img {
+img:not(.popup__img) {
     cursor: pointer;
 }

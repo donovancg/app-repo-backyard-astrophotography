@@ -30,7 +30,7 @@
 
                     <div class="row">
                         <div class="col-1-of-2">
-                            <img src="img/user/Sombrero Galaxy 5-7-18.jpg" alt="Sombrero Galaxy 5-7-18.jpg" class="latest__post--img" title="Sombrero Galaxy - Click to enlarge">
+                            <img src="img/user/Sombrero Galaxy 5-7-18.jpg" alt="Sombrero Galaxy 5-7-18.jpg" id="fk3a4vvz988hiucri5vy2e" class="latest__post--img" title="Sombrero Galaxy - Click to enlarge">
                         </div>
 
                         <div class="col-1-of-2">
@@ -49,7 +49,7 @@
 
                     <div class="row">
                         <div class="col-1-of-2">
-                            <img src="img/user/Sombrero Galaxy 5-7-18.jpg" alt="Sombrero Galaxy 5-7-18.jpg" class="latest__article--img" title="Sombrero Galaxy">
+                            <img src="img/system/Orion Nebula, Running Man Nebula 3-9-18.jpg" alt="Sombrero Galaxy 5-7-18.jpg" class="latest__article--img" title="Sombrero Galaxy">
                         </div>
 
                         <div class="col-1-of-2">
@@ -63,6 +63,36 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <p class="footer__p">Backyard Astrophotography</p>
+        <div class="footer__search">
+            <form action="" class="footer__form">
+                <input type="search" class="footer__form--input" name="search">
+                <input type="submit" class="footer__form--submit" name="submit">
+            </form>
+        </div>
+        <nav class="footer__nav">
+            <ul class="footer__ul">
+                <li class="footer__li"><a href="#" class="footer__a footer__a--select u-link-no-style">Home</a></li>
+                <li class="footer__li"><a href="#" class="footer__a u-link-no-style">Blog</a></li>
+                <li class="footer__li"><a href="#" class="footer__a u-link-no-style">Gallery</a></li>
+                <li class="footer__li"><a href="#" class="footer__a u-link-no-style">About</a></li>
+            </ul>
+        </nav>
+        <div class="footer__cta">
+            <p class="footer__cta--txt">Want to receive updates?</p>
+            <div class="footer__btn">
+                <button class="footer__button">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+    <div class="popup" id="js--img-popup">
+        <div class="popup__container">
+            <span class="popup__close" id="js--popup-close">&times;</span>
+            <img src="img/system/filler3x2.jpg" alt="Sombrero Galaxy 5-7-18" class="popup__img" id="js--popup-img">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
 
