@@ -67,8 +67,8 @@
         <p class="footer__p">Backyard Astrophotography</p>
         <div class="footer__search">
             <form action="" class="footer__form">
-                <input type="search" class="footer__form--input" name="search">
-                <input type="submit" class="footer__form--submit" name="submit">
+                <input type="text" class="footer__form--input" name="search">
+                <input type="submit" class="footer__form--submit" name="submit" value="Search">
             </form>
         </div>
         <nav class="footer__nav">
@@ -80,10 +80,8 @@
             </ul>
         </nav>
         <div class="footer__cta">
-            <p class="footer__cta--txt">Want to receive updates?</p>
-            <div class="footer__btn">
-                <button class="footer__button">Subscribe</button>
-            </div>
+            <p class="footer__cta--txt">Want to receive updates?<span><a class="footer__cta--link" href="#">Subscribe</a></span></p>
+            
         </div>
     </footer>
     <div class="popup" id="js--img-popup">

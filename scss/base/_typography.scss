@@ -13,6 +13,11 @@ body {
     color: $color-white;
 }
 
+form > * {
+    font-size: 1.4rem;
+    font-family: $default-font-family;
+}
+
 [class^="heading--"] {
     color: $color-white;
     font-weight: 300;
