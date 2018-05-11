@@ -13,8 +13,8 @@
         <div class="header__nav">
             <nav class="nav">
                 <ul class="nav__ul">
-                    <li class="nav__li"><a href="#" class="nav__a nav__a--select u-link-no-style">Home</a></li>
-                    <li class="nav__li"><a href="#" class="nav__a u-link-no-style">Blog</a></li>
+                    <li class="nav__li"><a href="" class="nav__a nav__a--select u-link-no-style">Home</a></li>
+                    <li class="nav__li"><a href="blog/" class="nav__a u-link-no-style">Blog</a></li>
                     <li class="nav__li"><a href="#" class="nav__a u-link-no-style">Gallery</a></li>
                     <li class="nav__li"><a href="#" class="nav__a u-link-no-style">About</a></li>
                 </ul>
@@ -73,8 +73,8 @@
         </div>
         <nav class="footer__nav">
             <ul class="footer__ul">
-                <li class="footer__li"><a href="#" class="footer__a footer__a--select u-link-no-style">Home</a></li>
-                <li class="footer__li"><a href="#" class="footer__a u-link-no-style">Blog</a></li>
+                <li class="footer__li"><a href="" class="footer__a footer__a--select u-link-no-style">Home</a></li>
+                <li class="footer__li"><a href="blog/" class="footer__a u-link-no-style">Blog</a></li>
                 <li class="footer__li"><a href="#" class="footer__a u-link-no-style">Gallery</a></li>
                 <li class="footer__li"><a href="#" class="footer__a u-link-no-style">About</a></li>
             </ul>
