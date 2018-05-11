@@ -29,6 +29,15 @@ img:not(.popup__img) {
 
 html {
   font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 60%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 55%; } }
+  @media only screen and (max-width: 37.5em) {
+    html {
+      font-size: 50%; } }
 
 body {
   font-size: 1.6rem;
@@ -53,6 +62,11 @@ form > * {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff; }
+  @media only screen and (max-width: 37.5em) {
+    .heading--primary {
+      font-size: 2rem;
+      width: 100%;
+      text-align: center; } }
 
 .heading--secondary {
   color: #fff;
@@ -80,41 +94,56 @@ form > * {
 .latest {
   display: flex;
   justify-content: center; }
-  .latest__post--img {
-    height: 20rem;
-    margin: auto;
-    margin-bottom: 2rem;
-    text-align: center; }
-  .latest__post--caption {
-    color: #fff;
-    display: inline-block;
-    font-weight: 300;
-    font-style: italic;
-    margin: 0 2rem; }
+  @media only screen and (max-width: 37.5em) {
+    .latest {
+      flex-direction: column; } }
   .latest__post--link {
     display: inline-block;
     color: #3f6bfc;
-    margin-left: .5rem; }
-  .latest__article--img {
-    height: 20rem;
-    margin: auto;
-    margin-bottom: 2rem;
-    text-align: center; }
-  .latest__article--caption {
-    color: #fff;
-    display: inline-block;
-    font-weight: 300;
-    font-style: italic;
-    margin: 0 2rem; }
+    margin-left: .5rem;
+    margin-bottom: 2rem; }
   .latest__article--link {
     display: inline-block;
     color: #3f6bfc;
-    margin-left: .5rem; }
+    margin-left: .5rem;
+    margin-bottom: 2rem; }
   .latest__post, .latest__article {
     background-color: #222;
     text-align: center;
     margin: 2rem;
     width: 50%; }
+    @media only screen and (max-width: 37.5em) {
+      .latest__post, .latest__article {
+        width: 90%;
+        margin: 2rem auto; } }
+    .latest__post--img, .latest__article--img {
+      height: auto;
+      width: 100%;
+      margin: 0 2rem;
+      margin-bottom: 2rem;
+      text-align: center; }
+      @media only screen and (max-width: 56.25em) {
+        .latest__post--img, .latest__article--img {
+          height: auto;
+          width: 100%; } }
+      @media only screen and (max-width: 75em) {
+        .latest__post--img, .latest__article--img {
+          width: 90%; } }
+    .latest__post--caption, .latest__article--caption {
+      color: #fff;
+      display: inline-block;
+      font-weight: 300;
+      font-style: italic;
+      margin: 0 2rem; }
+      @media only screen and (max-width: 56.25em) {
+        .latest__post--caption, .latest__article--caption {
+          margin: 0 1rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .latest__post--caption, .latest__article--caption {
+          margin: 0 .5rem; } }
+    @media only screen and (max-width: 75em) {
+      .latest__post .col-1-of-2, .latest__article .col-1-of-2 {
+        width: 100% !important; } }
 
 .popup {
   height: 100vh;
@@ -250,8 +279,7 @@ form > * {
       margin-right: 6rem; }
       @media only screen and (max-width: 56.25em) {
         .row [class^="col-"]:not(:last-child) {
-          margin-right: 0;
-          margin-bottom: 6rem; } }
+          margin-right: 0; } }
     @media only screen and (max-width: 56.25em) {
       .row [class^="col-"] {
         width: 100% !important; } }
@@ -285,6 +313,12 @@ form > * {
     display: inline;
     padding: 1rem;
     margin: 0 2rem; }
+    @media only screen and (max-width: 75em) {
+      .nav__li {
+        margin: 0 1rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .nav__li {
+        margin: 0 .5rem; } }
   .nav__a {
     color: #fff;
     padding: .5rem 0;

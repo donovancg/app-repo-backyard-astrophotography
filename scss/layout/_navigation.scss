@@ -8,6 +8,14 @@
         display: inline;
         padding: 1rem;
         margin: 0 2rem;
+
+        @include respond(tab-land) {
+            margin: 0 1rem;
+        }
+
+        @include respond(phone) {
+            margin: 0 .5rem;
+        }
     }
 
     &__a {

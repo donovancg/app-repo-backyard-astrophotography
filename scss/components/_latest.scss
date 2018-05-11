@@ -2,55 +2,33 @@
 
     display: flex;
     justify-content: center;
+    
+    @include respond(phone) {
+        flex-direction: column;
+    }
 
     &__post {
-
-        &--img {
-            height: 20rem;
-            margin: auto;
-            margin-bottom: 2rem;
-            text-align: center;
-        }
-
-        &--caption {
-            color: $color-white;
-            display: inline-block;
-            font-weight: 300;
-            font-style: italic;
-            margin: 0 2rem;
-        }
 
         &--link {
             display: inline-block;
             color: $color-link-blue;
             margin-left: .5rem;
+            margin-bottom: 2rem;
         }
 
         // &--details
     }
 
     &__article {
+
+
         
-        &--img {
-            height: 20rem;
-            margin: auto;
-            margin-bottom: 2rem;
-            text-align: center;
-        }
-
-
-        &--caption {
-            color: $color-white;
-            display: inline-block;
-            font-weight: 300;
-            font-style: italic;
-            margin: 0 2rem;
-        }
 
         &--link {
             display: inline-block;
             color: $color-link-blue;
             margin-left: .5rem;
+            margin-bottom: 2rem;
         }
     }
 
@@ -59,5 +37,52 @@
         text-align: center;
         margin: 2rem;
         width: 50%;
+
+        @include respond(phone) {
+            width: 90%;
+            margin: 2rem auto;
+        }
+
+        &--img {
+            height: auto;
+            width: 100%;
+            // margin: auto;
+            margin: 0 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+
+            @include respond(tab-port) {
+                height: auto;
+                width: 100%;
+            }
+
+            @include respond(tab-land) {
+                width: 90%;
+            }
+        }
+
+        &--caption {
+            color: $color-white;
+            display: inline-block;
+            font-weight: 300;
+            font-style: italic;
+            margin: 0 2rem;
+
+            @include respond(tab-port) {
+                margin: 0 1rem;
+            }
+
+            @include respond(phone) {
+                margin: 0 .5rem;
+            }
+        }
+
+        & .col-1-of-2 {
+
+            @include respond(tab-land) {
+                width: 100% !important;
+            }
+            
+        }
     }
 }

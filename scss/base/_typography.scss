@@ -1,5 +1,17 @@
 html {
     font-size: 62.5%;
+
+    @include respond(tab-land) {
+        font-size: 60%;
+    }
+
+    @include respond(tab-port) {
+        font-size: 55%;
+    }
+
+    @include respond(phone) {
+        font-size: 50%;
+    }
 }
 
 body {
@@ -26,6 +38,12 @@ form > * {
 .heading--primary {
     @include centerHorizontalVertical;
     color: $color-white;
+
+    @include respond(phone) {
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .heading--secondary {
