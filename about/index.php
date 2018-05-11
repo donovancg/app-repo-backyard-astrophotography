@@ -57,7 +57,7 @@
             <ul class="footer__ul">
                 <li class="footer__li"><a href="../" class="footer__a u-link-no-style">Home</a></li>
                 <li class="footer__li"><a href="../blog" class="footer__a footer__a--select u-link-no-style">Blog</a></li>
-                <li class="footer__li"><a href="#" class="footer__a u-link-no-style">Gallery</a></li>
+                <li class="footer__li"><a href="../gallery" class="footer__a u-link-no-style">Gallery</a></li>
                 <li class="footer__li"><a href="" class="footer__a u-link-no-style">About</a></li>
             </ul>
         </nav>

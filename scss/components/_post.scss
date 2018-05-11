@@ -6,9 +6,23 @@
     text-align: center;
     padding-top: .5rem;
 
+    @include respond(tab-land) {
+        width: 90%;
+        padding-left: 2rem;
+    }
+
+    @include respond(phone) {
+        width: 90%;
+        padding-left: 0;
+    }
+
     &__img {
         width: 100%;
         margin: 1rem 2rem;
+
+        @include respond(tab-land) {
+            margin: 1rem auto;
+        }
     }
 
     &__caption {
@@ -20,5 +34,7 @@
 
     &__link {
         color: $color-link-blue;
+        margin-bottom: 2rem;
+        display: inline-block;
     }
 }
